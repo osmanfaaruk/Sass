@@ -1,6 +1,17 @@
 @import './base/base';
 
+// import abstracts
 @import './abstracts/variable';
 @import './abstracts/mixin';
 
+
+// import utils
+@import './utils/utils';
+
+//import layout 
+@import './layout/grid';
+
+//import components
 @import './components/header';
+@import './components/navbar';
+@import './components/about';

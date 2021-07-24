@@ -4,3 +4,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+@mixin flexCenter{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
