@@ -11,4 +11,20 @@
         font-weight:300;
         line-height:2;
     }
+    &__section{
+        background:#efefefef;
+        padding:60px;
+        text-align:center;
+
+        &-icon{
+            color: $green;
+            margin-bottom:10px ;
+        }
+        &-heading h6{
+            font-size:18px;
+            margin-bottom: 15px ;
+
+        }
+    }
+
 }
